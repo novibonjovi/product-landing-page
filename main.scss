@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f1ebd7;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1ebd7;
+
+  #header-img {
+    width: 100%;
+    max-width: 300px;
+    margin-left: 40px;
+  }
+
+  #nav-bar {
+    a {
+      margin-right: 50px;
+      text-decoration: none;
+    }
+
+    a:link,
+    a:visited {
+      color: black;
+    }
+  }
+}
+
+#hero {
+  padding: 2rem;
+  text-align: center;
+
+  h1,
+  h2,
+  input {
+    margin-bottom: 1.25rem;
+  }
+
+  #form {
+    font-weight: 700;
+    #email {
+      width: 300px;
+      padding: 0.5rem;
+    }
+    #submit {
+      font-size: 1.25rem;
+      font-weight: 700;
+      background: #f3be21;
+      padding: 0.25rem 1rem;
+      border: none;
+      border-radius: 2px;
+    }
+  }
+}
+
+#features {
+  padding: 3rem 10rem;
+  line-height: 1.75rem;
+
+  p {
+    margin-bottom: 4rem;
+  }
+}
+
+#how-it-works {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.5rem;
+
+  .card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      padding: 1rem;
+      background: #e6d9bf;
+    }
+
+    #price {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    p {
+      margin-top: 1rem;
+      line-height: 2rem;
+      padding: 0 4rem 0 4rem;
+    }
+
+    .btn {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+      padding: 5px 10px 5px 10px;
+      border: none;
+      background: #f3be21;
+    }
+  }
+}
+
+#footer {
+  height: 70px;
+  background: #e6d9bf;
+  color: #4d4237;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  #pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f1ebd7;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#header {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f1ebd7;
+}
+
+#header #header-img {
+  width: 100%;
+  max-width: 300px;
+  margin-left: 40px;
+}
+
+#header #nav-bar a {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+#header #nav-bar a:link,
+#header #nav-bar a:visited {
+  color: black;
+}
+
+#hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+#hero h1,
+#hero h2,
+#hero input {
+  margin-bottom: 1.25rem;
+}
+
+#hero #form {
+  font-weight: 700;
+}
+
+#hero #form #email {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+#hero #form #submit {
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: #f3be21;
+  padding: 0.25rem 1rem;
+  border: none;
+  border-radius: 2px;
+}
+
+#features {
+  padding: 3rem 10rem;
+  line-height: 1.75rem;
+}
+
+#features p {
+  margin-bottom: 4rem;
+}
+
+#how-it-works {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+#pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3.5rem;
+}
+
+#pricing .card {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+}
+
+#pricing .card h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1rem;
+  background: #e6d9bf;
+}
+
+#pricing .card #price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#pricing .card p {
+  margin-top: 1rem;
+  line-height: 2rem;
+  padding: 0 4rem 0 4rem;
+}
+
+#pricing .card .btn {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  background: #f3be21;
+}
+
+#footer {
+  height: 70px;
+  background: #e6d9bf;
+  color: #4d4237;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  #pricing {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
